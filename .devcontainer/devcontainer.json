@@ -16,7 +16,7 @@
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
     // Use 'onCreateCommand' to run commands after the container is started for the first time.
-    "onCreateCommand": "pip3 install --user -r .devcontainer/requirements.in && opensafely pull ehrql",
+    "onCreateCommand": "pip3 install --user -r .devcontainer/requirements.txt && pip3 install opensafely && pip3 install --user https://github.com/opensafely-core/ehrql/archive/schools.zip && opensafely pull ehrql:schools-v0",
     // Configure tool-specific properties.
     "customizations": {
         "vscode": {
@@ -25,7 +25,10 @@
                 "ms-toolsai.jupyter",
                 "ms-toolsai.jupyter-renderers",
                 "bennettoxford.opensafely"
-            ]
+            ],
+            "settings": {
+                "opensafely.EHRQLImageVersion": "schools-v0"
+            },
         },
     },
     // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
