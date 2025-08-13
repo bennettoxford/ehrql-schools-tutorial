@@ -1,0 +1,13 @@
+patient_id,mat_id,school_id,year_group,gender,ks2_maths_score,ks2_reading_score,reading_age,pp,eal,send,ehcp,lac,attendance
+1,MAT01,SCH01,8,F,4,5,12,T,F,T,F,F,81
+2,MAT01,SCH01,9,F,67,18,15,F,F,F,F,F,57
+3,MAT01,SCH01,8,M,5,32,11,F,F,F,F,F,51
+4,MAT01,SCH02,9,M,12,14,11,F,F,F,F,F,53
+5,MAT01,SCH02,8,F,1,28,8,T,F,F,F,F,66
+6,MAT01,SCH02,9,F,44,34,13,F,F,F,F,F,80
+7,MAT02,SCH03,8,M,81,18,16,F,F,T,T,F,99
+8,MAT02,SCH03,9,M,25,74,15,F,F,F,F,F,91
+9,MAT02,SCH03,8,F,24,40,17,T,F,F,F,F,68
+10,MAT02,SCH04,9,F,21,45,8,F,F,T,T,F,11
+11,MAT02,SCH04,8,M,41,77,8,F,T,F,F,F,24
+12,MAT02,SCH04,9,M,36,52,8,F,F,F,F,F,56
